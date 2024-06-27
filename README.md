@@ -13,4 +13,7 @@ bun i - bun dev
 
 ```
 
+Com mais tempo eu poderia animar os carroceis das Sections 1 e 3.
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

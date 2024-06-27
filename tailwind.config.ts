@@ -12,6 +12,9 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "frota-container": "url('/images/frota-container.png')",
+        "navio": "url('/images/navio.png')",
+        "container": "url('/images/container.png')"
       },
     },
   },
