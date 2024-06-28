@@ -4,23 +4,23 @@ export default function Footer() {
 	return (
 		<div className='flex flex-col bg-black text-white p-8'>
 			<div className='flex flex-col md:flex-row items-center justify-between p-4 pt-10'>
-				<div className='flex font-semibold text-6xl w-1/2'>
+				<div className='flex font-semibold text-4xl md:text-6xl p-8 md:p-0 w-full md:w-1/2'>
 					Venha tomar um café conosco!
 				</div>
-				<div className='flex flex-col gap-y-4 w-full md:w-1/2 p-8'>
+				<div className='flex flex-col gap-y-4 w-full md:w-1/2 p-8 '>
 					<p className='font-extralight text-2xl'>
 						Somos a Soul Brokers. Temos como propósito prestar
 						serviços e criar soluções de seguros específicas para
 						cada ramo de atuação.
 					</p>
-					<button className='flex w-full px-4 lg:w-3/6  py-2 rounded-full border-2 items-center justify-center gap-2 '>
+					<button className='flex w-full px-4 lg:w-3/6  py-2 rounded-full border-2 items-center justify-center gap-2 hover:bg-zinc-700'>
 						<p className='flex flex-nowrap w-full'>Entre em Contato</p>
 						<Image
 							src={'/images/3.png'}
 							alt='Arrow'
 							width={24}
 							height={25}
-							className=' flex bg-black rounded-full '
+							className=' flex bg-black  rounded-full '
 						/>
 					</button>
 				</div>

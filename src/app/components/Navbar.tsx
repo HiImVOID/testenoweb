@@ -116,7 +116,7 @@ export default function Navbar(){
 							<li>Novidades</li>
 							<li>Localização</li>
 						</ul>
-						<button className=' text-slate-900 px-10 py-2 rounded-full border-2 whitespace-nowrap '>
+						<button className=' text-slate-900 px-10 py-2 rounded-full border-2 whitespace-nowrap hover:bg-zinc-200 hover:text-black '>
 							Entre em contato
 						</button>
 					</header>

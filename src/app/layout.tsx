@@ -20,7 +20,7 @@ export default function RootLayout({
 		<html lang='pt-br'>
 			<body className='flex flex-col min-h-screen w-full    '>
 				<Navbar2 />
-				<div className=' container flex flex-col gap-y-20 mx-auto items-center    '>
+				<div className=' container flex flex-col gap-y-20 mx-auto items-center   w-full '>
 					{children}
 				</div>
 			</body>

@@ -47,7 +47,7 @@ export default function Navbar2() {
 								<li className='py-5 pl-3 backdrop-blur-lg bg-gray-400/30 rounded-xl'>
 									Localização
 								</li>
-								<button className=' text-white px-10 py-2 rounded-full border-2 whitespace-nowrap '>
+								<button className=' text-white px-10 py-2 rounded-full border-2 whitespace-nowrap hover:bg-zinc-700 hover:text-black'>
 									Entre em contato
 								</button>
 							</ul>
@@ -75,7 +75,7 @@ export default function Navbar2() {
 								<li>Novidades</li>
 								<li>Localização</li>
 							</ul>
-							<button className=' text-slate-900 px-10 py-2 rounded-full border-2 whitespace-nowrap '>
+							<button className=' text-slate-900 px-10 py-2 rounded-full border-2 whitespace-nowrap hover:bg-zinc-200 hover:text-black '>
 								Entre em contato
 							</button>
 						</header>
