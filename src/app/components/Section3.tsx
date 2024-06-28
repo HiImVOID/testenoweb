@@ -36,7 +36,7 @@ export default function Section3() {
 		<>
 			<div className='h-full flex flex-col py-20 justify-around gap-8 bg-black px-14 text-white'>
 				<div className='flex flex-col md:flex-row gap-y-4 justify-between'>
-					<div className='flex flex-col gap-y-4 w-1/2 '>
+					<div className='flex flex-col gap-y-4 w-full md:w-1/2 '>
 						<h4 className='text-4xl font-semibold'>Novidades</h4>
 						<p className='flex'>
 							Mantenha-se atualizado sobre todas as novidades de
