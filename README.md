@@ -1,8 +1,18 @@
+# Olá! Bem-vindo 🚀
+Este repositório representa uma pagina na qual demostro na prática minhas habilidades e experiência como desenvolvedor front-end. 
 
+### 🌐 Links rápidos
 
-First, run the development server:
+🔗 [Click e vejá o site](testenoweb.vercel.app)
 
-```bash
+### 🛠️ Tecnologias usadas no projeto:
+* HTML5, CSS, JavaScript (ES6+)
+* Frameworks: React,Next.js 
+* Bibliotecas de estilização: Tailwind CSS
+* Gerenciadores de pacotes: npm
+
+### 🧩 Como rodar o projeto?
+```sh
 npm i -  npm run dev
 #ou
 yarn i - yarn dev
@@ -10,10 +20,10 @@ yarn i - yarn dev
 pnpm i - pnpm dev
 #ou
 bun i - bun dev
-
 ```
 
-Com mais tempo eu poderia animar os carroceis das Sections 1 e 3.
+### Print do projeto
 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+![Logo](https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/029e9dc7-2d26-403e-9e30-b38676723d9b)
