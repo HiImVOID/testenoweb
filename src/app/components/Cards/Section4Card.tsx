@@ -15,7 +15,7 @@ export default function Section4Card(service: ServicesProps) {
 					width={500}
 					height={300}
 					alt='alt'
-					className='flex '
+					className='flex object-cover md:object-fit'
 				/>
 			</div>
 			<div className='flex flex-col gap-y-4 ml-8 items-start justify-around'>
@@ -23,14 +23,14 @@ export default function Section4Card(service: ServicesProps) {
 					{service.title}
 				</div>
 				<div>{service.text}</div>
-				<button className='flex w-2/3 md:w-2/5  py-2 rounded-full border-2 items-center justify-center gap-2'>
+				<button className='flex w-2/3 md:w-2/5  py-2 rounded-full border-2 border-black items-center justify-center gap-2 hover:bg-zinc-200  ' >
 					Conheça
 					<Image
 						src={'/images/2.png'}
 						alt='Logo'
 						width={24}
 						height={25}
-						className=' bg-white rounded-full '
+						className=' bg-white  rounded-full '
 					/>
 				</button>
 			</div>

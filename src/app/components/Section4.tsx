@@ -23,7 +23,7 @@ export default function Section4() {
 		},
 	]
     return (
-        <div className="min-h-screen flex flex-col gap-y-8 p-8">
+        <div className="min-h-screen  flex flex-col gap-y-8 p-8">
             <h4 className="flex text-5xl font-semibold border-b-2 py-14 pb-8 mx-8">Nossos serviços</h4>
             {services.map((service, index) => (
                 <Section4Card
